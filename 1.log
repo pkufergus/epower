@@ -1,0 +1,182 @@
+==========begin to crawl[2015-09-01 16:03:19]==================================
+country=CA, url_type=TraveltoChinaCorp, limit=5, threadnum=500
+Spider <Spider.Spider instance at 0x7f216cf6e8c0>
+country=CA, url_type=TraveltoChinaCorp, limit=5, threadnum=500
+sql = [ select DepartureCode, DestinationCode, country
+		from aie_v2.aie_citypair
+		where Undone='TRUE' ]
+BJS --> NYC
+BOS --> BJS
+BOS --> SHA
+NYC --> BJS
+NYC --> SHA
+SFO --> BJS
+SFO --> SHA
+LAX --> BJS
+LAX --> SHA
+CHI --> BJS
+CHI --> SHA
+WAS --> BJS
+WAS --> SHA
+SEA --> BJS
+SEA --> SHA
+HOU --> BJS
+HOU --> SHA
+YEG --> BJS
+Depart time= 2015-09-03
+	return time= 2015-09-17
+url = [https://www-amer.epower.amadeus.com/TraveltoChinaCorp/#AdtCount=1&Culture=zh-CN&ManualCostAmount=&ManualCostType=none&Method=Search&Page=Home&From=YEG&DepartureDate=09/03/2015&To=BJS&ReturnDate=09/17/2015&QFrom=C&QTo=C]
+i=36
+key=CA:TraveltoChinaCorp:36
+retry get sid tid
+self count=1 limt=5
+	return time= 2015-10-01
+url = [https://www-amer.epower.amadeus.com/TraveltoChinaCorp/#AdtCount=1&Culture=zh-CN&ManualCostAmount=&ManualCostType=none&Method=Search&Page=Home&From=YEG&DepartureDate=09/03/2015&To=BJS&ReturnDate=10/01/2015&QFrom=C&QTo=C]
+i=34
+key=CA:TraveltoChinaCorp:34
+retry get sid tid
+self count=2 limt=5
+	return time= 2015-12-03
+url = [https://www-amer.epower.amadeus.com/TraveltoChinaCorp/#AdtCount=1&Culture=zh-CN&ManualCostAmount=&ManualCostType=none&Method=Search&Page=Home&From=YEG&DepartureDate=09/03/2015&To=BJS&ReturnDate=12/03/2015&QFrom=C&QTo=C]
+i=11
+key=CA:TraveltoChinaCorp:11
+retry get sid tid
+self count=3 limt=5
+	return time= 2016-03-03
+url = [https://www-amer.epower.amadeus.com/TraveltoChinaCorp/#AdtCount=1&Culture=zh-CN&ManualCostAmount=&ManualCostType=none&Method=Search&Page=Home&From=YEG&DepartureDate=09/03/2015&To=BJS&ReturnDate=03/03/2016&QFrom=C&QTo=C]
+i=80
+key=CA:TraveltoChinaCorp:80
+retry get sid tid
+self count=4 limt=5
+Depart time= 2015-09-04
+	return time= 2015-09-18
+url = [https://www-amer.epower.amadeus.com/TraveltoChinaCorp/#AdtCount=1&Culture=zh-CN&ManualCostAmount=&ManualCostType=none&Method=Search&Page=Home&From=YEG&DepartureDate=09/04/2015&To=BJS&ReturnDate=09/18/2015&QFrom=C&QTo=C]
+i=41
+key=CA:TraveltoChinaCorp:41
+retry get sid tid
+self count=5 limt=5
+self count=5
+self count=5 limt=5
+self count=5 limt=5
+api=https://www-amer.epower.amadeus.com/TraveltoChinaCorp/
+api=https://www-amer.epower.amadeus.com/TraveltoChinaCorp/
+api=https://www-amer.epower.amadeus.com/TraveltoChinaCorp/
+api=https://www-amer.epower.amadeus.com/TraveltoChinaCorp/
+api=https://www-amer.epower.amadeus.com/TraveltoChinaCorp/
+resp= <addinfourl at 34525408 whose fp = <socket._fileobject object at 0x7f216cf827d0>>
+Name = ASP.NET_SessionId
+Value = je2ggw1g1rbl3v4bg2pu5vg5
+Name = Ticket
+Value = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a36&Hash=pKyQiuoZL2kI8QcxlD5jEe7I6dWeWgHxibYFb8nPu2w%3d
+access url=[https://www-amer.epower.amadeus.com/TraveltoChinaCorp/GeneralService/GeneralInformationInit] sid=[je2ggw1g1rbl3v4bg2pu5vg5] tid=[PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a36&Hash=pKyQiuoZL2kI8QcxlD5jEe7I6dWeWgHxibYFb8nPu2w%3d]
+sid = je2ggw1g1rbl3v4bg2pu5vg5
+tid = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a36&Hash=pKyQiuoZL2kI8QcxlD5jEe7I6dWeWgHxibYFb8nPu2w%3d
+resp= <addinfourl at 33711240 whose fp = <socket._fileobject object at 0x7f216cf82b50>>
+Name = ASP.NET_SessionId
+Value = tfuvmqvskz3m2icl0pjhe4a2
+Name = Ticket
+Value = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d
+access url=[https://www-amer.epower.amadeus.com/TraveltoChinaCorp/GeneralService/GeneralInformationInit] sid=[tfuvmqvskz3m2icl0pjhe4a2] tid=[PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d]
+sid = tfuvmqvskz3m2icl0pjhe4a2
+tid = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d
+resp= <addinfourl at 33700464 whose fp = <socket._fileobject object at 0x7f216cf82d50>>
+Name = ASP.NET_SessionId
+Value = ejesps2r5lvcw3d1jmakt2jo
+Name = Ticket
+Value = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d
+access url=[https://www-amer.epower.amadeus.com/TraveltoChinaCorp/GeneralService/GeneralInformationInit] sid=[ejesps2r5lvcw3d1jmakt2jo] tid=[PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d]
+sid = ejesps2r5lvcw3d1jmakt2jo
+tid = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d
+resp= <addinfourl at 33688680 whose fp = <socket._fileobject object at 0x7f216cf82f50>>
+Name = ASP.NET_SessionId
+Value = mxdpjtggqskgoov1ymq4oxaj
+Name = Ticket
+Value = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d
+access url=[https://www-amer.epower.amadeus.com/TraveltoChinaCorp/GeneralService/GeneralInformationInit] sid=[mxdpjtggqskgoov1ymq4oxaj] tid=[PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d]
+sid = mxdpjtggqskgoov1ymq4oxaj
+tid = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d
+resp= <addinfourl at 34722952 whose fp = <socket._fileobject object at 0x7f216cf89150>>
+Name = ASP.NET_SessionId
+Value = 5qfuikrsidh20hpptldvukug
+Name = Ticket
+Value = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d
+access url=[https://www-amer.epower.amadeus.com/TraveltoChinaCorp/GeneralService/GeneralInformationInit] sid=[5qfuikrsidh20hpptldvukug] tid=[PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d]
+sid = 5qfuikrsidh20hpptldvukug
+tid = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d
+first respone code= 200
+ret=
+s":null,"DefaultCulture":"zh-CN","DefaultTheme":null,"EditProfileLink":null,"EditProfileTarget":null,"Errors":[],"FMGREpowerAPIGetFile":"http://www.epower.amadeus.com/NEWUI.FMGR/epowerapi","HasUISession":false,"HaveAffCode":false,"IsB2B2C":false,"IsB2B2CHostAdmin":false,"IsFacebookPage":false,"IsRobot":false,"JSonData":null,"LoginRequired":false,"OfficeID":"MUCWW28AA","Page":null,"PortalCode":"TraveltoChinaCorp","PortalID":"9f8f12d9-3f7d-4f15-be52-ec676d69308e","ProcessEndDate":null,"ProcessStartDate":null,"RecoverPasswordLink":null,"RecoverPasswordTarget":null,"RegisterLink":null,"RegisterTarget":null,"RegistrationFromURL":null,"Rules":{},"ServerTimeZoneDiff":0.0,"SessionID":"tfuvmqvskz3m2icl0pjhe4a2","SessiontimeOutDuration":20,"SiteTitle":null,"Succeded":false,"SuccedededWithError":false,"TimeStamp":"20150901 08:03:37","TransactionHistoryID":"97d93068-8c64-4a3f-8d31-9ec207a336d9","TsID":"97d93068-8c64-4a3f-8d31-9ec207a336d9","UICulture":"zh-CN","User":null,"UserIP":"111.202.176.23"
+ret full=
+access url=[https://www-amer.epower.amadeus.com/TraveltoChinaCorp/FlightService/FlightRunSearch] sid=[tfuvmqvskz3m2icl0pjhe4a2] tid=[PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d]
+sid = tfuvmqvskz3m2icl0pjhe4a2
+tid = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d
+first respone code= 200
+ret=
+s":null,"DefaultCulture":"zh-CN","DefaultTheme":null,"EditProfileLink":null,"EditProfileTarget":null,"Errors":[],"FMGREpowerAPIGetFile":"http://www.epower.amadeus.com/NEWUI.FMGR/epowerapi","HasUISession":false,"HaveAffCode":false,"IsB2B2C":false,"IsB2B2CHostAdmin":false,"IsFacebookPage":false,"IsRobot":false,"JSonData":null,"LoginRequired":false,"OfficeID":"MUCWW28AA","Page":null,"PortalCode":"TraveltoChinaCorp","PortalID":"9f8f12d9-3f7d-4f15-be52-ec676d69308e","ProcessEndDate":null,"ProcessStartDate":null,"RecoverPasswordLink":null,"RecoverPasswordTarget":null,"RegisterLink":null,"RegisterTarget":null,"RegistrationFromURL":null,"Rules":{},"ServerTimeZoneDiff":0.0,"SessionID":"ejesps2r5lvcw3d1jmakt2jo","SessiontimeOutDuration":20,"SiteTitle":null,"Succeded":false,"SuccedededWithError":false,"TimeStamp":"20150901 08:03:37","TransactionHistoryID":"65481a5c-d05e-4399-8c07-900fbe129201","TsID":"65481a5c-d05e-4399-8c07-900fbe129201","UICulture":"zh-CN","User":null,"UserIP":"111.202.176.23"
+ret full=
+access url=[https://www-amer.epower.amadeus.com/TraveltoChinaCorp/FlightService/FlightRunSearch] sid=[ejesps2r5lvcw3d1jmakt2jo] tid=[PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d]
+sid = ejesps2r5lvcw3d1jmakt2jo
+tid = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d
+first respone code= 200
+ret=
+s":null,"DefaultCulture":"zh-CN","DefaultTheme":null,"EditProfileLink":null,"EditProfileTarget":null,"Errors":[],"FMGREpowerAPIGetFile":"http://www.epower.amadeus.com/NEWUI.FMGR/epowerapi","HasUISession":false,"HaveAffCode":false,"IsB2B2C":false,"IsB2B2CHostAdmin":false,"IsFacebookPage":false,"IsRobot":false,"JSonData":null,"LoginRequired":false,"OfficeID":"MUCWW28AA","Page":null,"PortalCode":"TraveltoChinaCorp","PortalID":"9f8f12d9-3f7d-4f15-be52-ec676d69308e","ProcessEndDate":null,"ProcessStartDate":null,"RecoverPasswordLink":null,"RecoverPasswordTarget":null,"RegisterLink":null,"RegisterTarget":null,"RegistrationFromURL":null,"Rules":{},"ServerTimeZoneDiff":0.0,"SessionID":"5qfuikrsidh20hpptldvukug","SessiontimeOutDuration":20,"SiteTitle":null,"Succeded":false,"SuccedededWithError":false,"TimeStamp":"20150901 08:03:37","TransactionHistoryID":"2ada7789-8268-4d61-9b4d-52e67bc9e5e9","TsID":"2ada7789-8268-4d61-9b4d-52e67bc9e5e9","UICulture":"zh-CN","User":null,"UserIP":"111.202.176.23"
+ret full=
+access url=[https://www-amer.epower.amadeus.com/TraveltoChinaCorp/FlightService/FlightRunSearch] sid=[5qfuikrsidh20hpptldvukug] tid=[PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d]
+sid = 5qfuikrsidh20hpptldvukug
+tid = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d
+first respone code= 200
+ret=
+s":null,"DefaultCulture":"zh-CN","DefaultTheme":null,"EditProfileLink":null,"EditProfileTarget":null,"Errors":[],"FMGREpowerAPIGetFile":"http://www.epower.amadeus.com/NEWUI.FMGR/epowerapi","HasUISession":false,"HaveAffCode":false,"IsB2B2C":false,"IsB2B2CHostAdmin":false,"IsFacebookPage":false,"IsRobot":false,"JSonData":null,"LoginRequired":false,"OfficeID":"MUCWW28AA","Page":null,"PortalCode":"TraveltoChinaCorp","PortalID":"9f8f12d9-3f7d-4f15-be52-ec676d69308e","ProcessEndDate":null,"ProcessStartDate":null,"RecoverPasswordLink":null,"RecoverPasswordTarget":null,"RegisterLink":null,"RegisterTarget":null,"RegistrationFromURL":null,"Rules":{},"ServerTimeZoneDiff":0.0,"SessionID":"je2ggw1g1rbl3v4bg2pu5vg5","SessiontimeOutDuration":20,"SiteTitle":null,"Succeded":false,"SuccedededWithError":false,"TimeStamp":"20150901 08:03:37","TransactionHistoryID":"2a7f854e-53fc-48be-83e1-e37b2445eac5","TsID":"2a7f854e-53fc-48be-83e1-e37b2445eac5","UICulture":"zh-CN","User":null,"UserIP":"111.202.176.23"
+ret full=
+access url=[https://www-amer.epower.amadeus.com/TraveltoChinaCorp/FlightService/FlightRunSearch] sid=[je2ggw1g1rbl3v4bg2pu5vg5] tid=[PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a36&Hash=pKyQiuoZL2kI8QcxlD5jEe7I6dWeWgHxibYFb8nPu2w%3d]
+sid = je2ggw1g1rbl3v4bg2pu5vg5
+tid = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a36&Hash=pKyQiuoZL2kI8QcxlD5jEe7I6dWeWgHxibYFb8nPu2w%3d
+first respone code= 200
+ret=
+s":null,"DefaultCulture":"zh-CN","DefaultTheme":null,"EditProfileLink":null,"EditProfileTarget":null,"Errors":[],"FMGREpowerAPIGetFile":"http://www.epower.amadeus.com/NEWUI.FMGR/epowerapi","HasUISession":false,"HaveAffCode":false,"IsB2B2C":false,"IsB2B2CHostAdmin":false,"IsFacebookPage":false,"IsRobot":false,"JSonData":null,"LoginRequired":false,"OfficeID":"MUCWW28AA","Page":null,"PortalCode":"TraveltoChinaCorp","PortalID":"9f8f12d9-3f7d-4f15-be52-ec676d69308e","ProcessEndDate":null,"ProcessStartDate":null,"RecoverPasswordLink":null,"RecoverPasswordTarget":null,"RegisterLink":null,"RegisterTarget":null,"RegistrationFromURL":null,"Rules":{},"ServerTimeZoneDiff":0.0,"SessionID":"mxdpjtggqskgoov1ymq4oxaj","SessiontimeOutDuration":20,"SiteTitle":null,"Succeded":false,"SuccedededWithError":false,"TimeStamp":"20150901 08:03:37","TransactionHistoryID":"ec5469b7-7dbd-456e-aabc-caf99c69ff49","TsID":"ec5469b7-7dbd-456e-aabc-caf99c69ff49","UICulture":"zh-CN","User":null,"UserIP":"111.202.176.23"
+ret full=
+access url=[https://www-amer.epower.amadeus.com/TraveltoChinaCorp/FlightService/FlightRunSearch] sid=[mxdpjtggqskgoov1ymq4oxaj] tid=[PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d]
+sid = mxdpjtggqskgoov1ymq4oxaj
+tid = PortalCode=TraveltoChinaCorp&UserName=&ClientIP=111.202.176.23&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=09%2f01%2f2015+08%3a03%3a37&Hash=nMjnsuK8s73AT6fgsyfwjQHoD%2f%2bfhKoV7B%2bcZjCKqQk%3d
+first respone code= 200
+first respone code= 200
+first respone code= 200
+first respone code= 200
+first respone code= 200
+ret=
+:null,"StopOver":null,"TechnicalStop":null}],"StopDuration":"7:50","Stops":"2","TechnicalStops":"0"}],"MaxArrivalTime":"/Date(2016,2,3,20,5,0,0)/","MaxDepartureTime":"/Date(2016,2,3,15,50,0,0)/","MinArrivalTime":"/Date(2016,2,3,20,5,0,0)/","MinDepartureTime":"/Date(2016,2,3,15,50,0,0)/","ValidatingAr":null}],"mAirports":["YEG","PEK"],"mArrivalTimes":[["11:20"],["22:29"]],"MaxCabinClassCode":"Y","MaxCabinClassText":"经济舱","mDepartureTimes":["13:40;11:20 |15:50;22:29 "],"minElapsedTime":53,"OnlyOneWayCombinable":false,"Options":[{"FCombination":[75,76],"RelOptionID":"984be8dd-077c-44e1-92d2-eaded73dfbc7","RelRecID":"d74291e2-a759-4794-89e6-e298ed3e9bd4"}],"PromotionDescription":null,"RecKey":null,"RelRecID":"d74291e2-a759-4794-89e6-e298ed3e9bd4","SF":0.0,"Stops":[",2",",2"],"Tax":425.77}],"Rules":{},"SessionID":"je2ggw1g1rbl3v4bg2pu5vg5","ShowAdditionalFeeMayApplyMsg":false,"Succeded":true,"SuccedededWithError":false,"TsID":"2a7f854e-53fc-48be-83e1-e37b2445eac5","UICulture":"zh-CN"
+ret full=
+sql = [ replace into aie_v2.aie_masterdata
+		(DepartureDate, ReturnDate, DepartureCity, ArrivalCity, Price, Stops, AirlineCode,AirlineName,  WebLink, Undone, updated, UpdatedDate) 
+		values('2015-09-03', '2016-03-03', 'YEG', 'BJS', '1069.61', '0', '0', '0', 'https://www-amer.epower.amadeus.com/TraveltoChinaCorp/#AdtCount=1&Culture=zh-CN&ManualCostAmount=&ManualCostType=none&Method=Search&Page=Home&From=YEG&DepartureDate=09/03/2015&To=BJS&ReturnDate=03/03/2016&QFrom=C&QTo=C', 'TRUE', 1, '2015-09-01 16:03:40')
+		]
+ret=
+l,"StopOver":null,"TechnicalStop":null}],"StopDuration":"7:50","Stops":"2","TechnicalStops":"0"}],"MaxArrivalTime":"/Date(2015,11,3,20,5,0,0)/","MaxDepartureTime":"/Date(2015,11,3,15,50,0,0)/","MinArrivalTime":"/Date(2015,11,3,20,5,0,0)/","MinDepartureTime":"/Date(2015,11,3,15,50,0,0)/","ValidatingAr":null}],"mAirports":["YEG","PEK"],"mArrivalTimes":[["11:20"],["22:27"]],"MaxCabinClassCode":"Y","MaxCabinClassText":"经济舱","mDepartureTimes":["13:40;11:20 |15:50;22:27 "],"minElapsedTime":53,"OnlyOneWayCombinable":false,"Options":[{"FCombination":[73,74],"RelOptionID":"85b27781-b989-4852-8772-ca2b003e1c11","RelRecID":"695a1d09-0031-4e68-bde9-bb124f454bca"}],"PromotionDescription":null,"RecKey":null,"RelRecID":"695a1d09-0031-4e68-bde9-bb124f454bca","SF":0.0,"Stops":[",2",",2"],"Tax":425.77}],"Rules":{},"SessionID":"5qfuikrsidh20hpptldvukug","ShowAdditionalFeeMayApplyMsg":false,"Succeded":true,"SuccedededWithError":false,"TsID":"2ada7789-8268-4d61-9b4d-52e67bc9e5e9","UICulture":"zh-CN"
+ret full=
+sql = [ replace into aie_v2.aie_masterdata
+		(DepartureDate, ReturnDate, DepartureCity, ArrivalCity, Price, Stops, AirlineCode,AirlineName,  WebLink, Undone, updated, UpdatedDate) 
+		values('2015-09-03', '2015-12-03', 'YEG', 'BJS', '908.05', '0', '0', '0', 'https://www-amer.epower.amadeus.com/TraveltoChinaCorp/#AdtCount=1&Culture=zh-CN&ManualCostAmount=&ManualCostType=none&Method=Search&Page=Home&From=YEG&DepartureDate=09/03/2015&To=BJS&ReturnDate=12/03/2015&QFrom=C&QTo=C', 'TRUE', 1, '2015-09-01 16:03:40')
+		]
+ret=
+:null,"StopOver":null,"TechnicalStop":null}],"StopDuration":"5:30","Stops":"2","TechnicalStops":"0"}],"MaxArrivalTime":"/Date(2015,9,1,15,10,0,0)/","MaxDepartureTime":"/Date(2015,9,1,11,15,0,0)/","MinArrivalTime":"/Date(2015,9,1,15,10,0,0)/","MinDepartureTime":"/Date(2015,9,1,11,15,0,0)/","ValidatingAr":null}],"mAirports":["YEG","PEK"],"mArrivalTimes":[["9:30"],["23:49"]],"MaxCabinClassCode":"Y","MaxCabinClassText":"经济舱","mDepartureTimes":["18:20;9:30 |11:15;23:49 "],"minElapsedTime":51,"OnlyOneWayCombinable":false,"Options":[{"FCombination":[70,71],"RelOptionID":"aecf5c5a-799d-430c-8f0c-fdb1e5df2a76","RelRecID":"68010422-aa09-495b-9452-639a501d02b6"}],"PromotionDescription":null,"RecKey":null,"RelRecID":"68010422-aa09-495b-9452-639a501d02b6","SF":0.0,"Stops":[",2",",2"],"Tax":992.55}],"Rules":{},"SessionID":"tfuvmqvskz3m2icl0pjhe4a2","ShowAdditionalFeeMayApplyMsg":false,"Succeded":true,"SuccedededWithError":false,"TsID":"97d93068-8c64-4a3f-8d31-9ec207a336d9","UICulture":"zh-CN"
+ret full=
+sql = [ replace into aie_v2.aie_masterdata
+		(DepartureDate, ReturnDate, DepartureCity, ArrivalCity, Price, Stops, AirlineCode,AirlineName,  WebLink, Undone, updated, UpdatedDate) 
+		values('2015-09-03', '2015-10-01', 'YEG', 'BJS', '1192.61', '0', '0', '0', 'https://www-amer.epower.amadeus.com/TraveltoChinaCorp/#AdtCount=1&Culture=zh-CN&ManualCostAmount=&ManualCostType=none&Method=Search&Page=Home&From=YEG&DepartureDate=09/03/2015&To=BJS&ReturnDate=10/01/2015&QFrom=C&QTo=C', 'TRUE', 1, '2015-09-01 16:03:41')
+		]
+ret=
+l,"StopOver":null,"TechnicalStop":null}],"StopDuration":"4:10","Stops":"2","TechnicalStops":"0"}],"MaxArrivalTime":"/Date(2015,8,18,13,50,0,0)/","MaxDepartureTime":"/Date(2015,8,18,10,0,0,0)/","MinArrivalTime":"/Date(2015,8,18,13,50,0,0)/","MinDepartureTime":"/Date(2015,8,18,10,0,0,0)/","ValidatingAr":null}],"mAirports":["YEG","PEK"],"mArrivalTimes":[["11:15"],["17:31"]],"MaxCabinClassCode":"Y","MaxCabinClassText":"经济舱","mDepartureTimes":["21:25;11:15 |10:00;17:31 "],"minElapsedTime":45,"OnlyOneWayCombinable":false,"Options":[{"FCombination":[77,78],"RelOptionID":"e4e152d7-1186-4967-8e61-3678c5ff68ae","RelRecID":"c24644f4-a7ea-45a0-834b-9b62ba2a6d27"}],"PromotionDescription":null,"RecKey":null,"RelRecID":"c24644f4-a7ea-45a0-834b-9b62ba2a6d27","SF":0.0,"Stops":[",2",",2"],"Tax":172.61}],"Rules":{},"SessionID":"mxdpjtggqskgoov1ymq4oxaj","ShowAdditionalFeeMayApplyMsg":false,"Succeded":true,"SuccedededWithError":false,"TsID":"ec5469b7-7dbd-456e-aabc-caf99c69ff49","UICulture":"zh-CN"
+ret full=
+sql = [ replace into aie_v2.aie_masterdata
+		(DepartureDate, ReturnDate, DepartureCity, ArrivalCity, Price, Stops, AirlineCode,AirlineName,  WebLink, Undone, updated, UpdatedDate) 
+		values('2015-09-04', '2015-09-18', 'YEG', 'BJS', '1262.35', '0', '0', '0', 'https://www-amer.epower.amadeus.com/TraveltoChinaCorp/#AdtCount=1&Culture=zh-CN&ManualCostAmount=&ManualCostType=none&Method=Search&Page=Home&From=YEG&DepartureDate=09/04/2015&To=BJS&ReturnDate=09/18/2015&QFrom=C&QTo=C', 'TRUE', 1, '2015-09-01 16:03:41')
+		]
+ret=
+l,"StopOver":null,"TechnicalStop":null}],"StopDuration":"5:30","Stops":"2","TechnicalStops":"0"}],"MaxArrivalTime":"/Date(2015,8,17,15,10,0,0)/","MaxDepartureTime":"/Date(2015,8,17,11,15,0,0)/","MinArrivalTime":"/Date(2015,8,17,15,10,0,0)/","MinDepartureTime":"/Date(2015,8,17,11,15,0,0)/","ValidatingAr":null}],"mAirports":["YEG","PEK"],"mArrivalTimes":[["9:30"],["23:49"]],"MaxCabinClassCode":"Y","MaxCabinClassText":"经济舱","mDepartureTimes":["18:20;9:30 |11:15;23:49 "],"minElapsedTime":51,"OnlyOneWayCombinable":false,"Options":[{"FCombination":[83,84],"RelOptionID":"02abab44-0636-48b2-bdbc-2ff09fc6ee57","RelRecID":"15956d61-f9e2-43ec-8d47-5922e33c5f73"}],"PromotionDescription":null,"RecKey":null,"RelRecID":"15956d61-f9e2-43ec-8d47-5922e33c5f73","SF":0.0,"Stops":[",2",",2"],"Tax":992.55}],"Rules":{},"SessionID":"ejesps2r5lvcw3d1jmakt2jo","ShowAdditionalFeeMayApplyMsg":false,"Succeded":true,"SuccedededWithError":false,"TsID":"65481a5c-d05e-4399-8c07-900fbe129201","UICulture":"zh-CN"
+ret full=
+sql = [ replace into aie_v2.aie_masterdata
+		(DepartureDate, ReturnDate, DepartureCity, ArrivalCity, Price, Stops, AirlineCode,AirlineName,  WebLink, Undone, updated, UpdatedDate) 
+		values('2015-09-03', '2015-09-17', 'YEG', 'BJS', '1185.99', '0', '0', '0', 'https://www-amer.epower.amadeus.com/TraveltoChinaCorp/#AdtCount=1&Culture=zh-CN&ManualCostAmount=&ManualCostType=none&Method=Search&Page=Home&From=YEG&DepartureDate=09/03/2015&To=BJS&ReturnDate=09/17/2015&QFrom=C&QTo=C', 'TRUE', 1, '2015-09-01 16:03:42')
+		]
+total num=5, nomal num=5, except num=0
+=========end crawl[2015-09-01 16:03:42],elapse[22.8591041565]============================
