@@ -21,7 +21,7 @@ class Spider:
 	count=0
 
 	def __init__(self, country='USA', url_type="etraveltochina", limit=1, threadnum=100):
-		self.host = "mysql.travel.com"
+		self.host = "127.0.0.1"
 		self.db_user = "root"
 		self.db_passwd = getPasswd()
 		self.mysqlPool = PooledDB.PooledDB(MySQLdb,100,200,100,200,True, host=self.host,user=self.db_user,passwd=self.db_passwd,db='mysql', charset='utf8') 
