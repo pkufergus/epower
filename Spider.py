@@ -20,7 +20,7 @@ class Spider:
 	maxInterval=330
 	count=0
 
-	def __init__(self, country='USA', url_type="etraveltochina", limit=1, threadnum=100):
+	def __init__(self, country='USA', url_type="traveltochina", limit=1, threadnum=100):
 		self.host = "127.0.0.1"
 		self.db_user = "root"
 		self.db_passwd = getPasswd()

@@ -32,7 +32,7 @@ def Run(argv):
 		sys.exit(2)
 	
 	country="USA"
-	url_type="etraveltochina"
+	url_type="traveltochina"
 	limit=10000
 	threadnum=100
         run_type='normal'

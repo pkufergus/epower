@@ -34,7 +34,7 @@ def Run(argv):
 	  		sys.exit(3)
 
 	country="USA"
-	url_type="etraveltochina"
+	url_type="traveltochina"
 	print "prefix=%s, mode=%s, culture=%s" % (prefix, mode, culture)
 	redisdb=Redis(country=country, url_type=url_type, culture=culture)
 

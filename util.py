@@ -3,8 +3,8 @@ import cookielib
 import datetime,time
 import types
 
-def GetRootURL(country="USA", url_type="etraveltochina"):
-	api = "https://www-amer.epower.amadeus.com/etraveltochina/"
+def GetRootURL(country="USA", url_type="traveltochina"):
+	api = "https://www-amer.epower.amadeus.com/traveltochina/"
         print 'api',api
 	if country == "CA" :
 		api = "https://www-amer.epower.amadeus.com/"+url_type+"/" 
@@ -12,7 +12,7 @@ def GetRootURL(country="USA", url_type="etraveltochina"):
 		api = "https://www-amer.epower.amadeus.com/"+url_type+"/"
 	return api;
 
-def GetCookieSession(country="USA", url_type="etraveltochina", culture="zh-CN"):
+def GetCookieSession(country="USA", url_type="traveltochina", culture="zh-CN"):
 	root_url=GetRootURL(country, url_type)
 	api=root_url+"#Culture=%s" % culture
 	print "api=%s" % api
@@ -57,8 +57,8 @@ def AccessURL(url, payload, sid, tid):
 	req.add_header('User-Agent', 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6')
 	print "sid =", sid
 	print "tid =", tid
-	#tid="PortalCode=etraveltochina&UserName=&ClientIP=111.202.176.55&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=en-US&ApiUrlBase=http%3a%2f%2fstaging.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=08%2f09%2f2015+14%3a36%3a32&Hash=ujmsPniJPAOJBSc7Urinxdonq3lOLXIHD4fjSDNm%2f7s%3d"
-	#tid="PortalCode=etraveltochina&UserName=&ClientIP=222.129.49.83&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=08%2f12%2f2015+15%3a45%3a58&Hash=5V%2f56ZJ0WZ1bxpCVpRjpHb1ftgGQgdI6XO62snYzrIY%3d"
+	#tid="PortalCode=traveltochina&UserName=&ClientIP=111.202.176.55&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=en-US&ApiUrlBase=http%3a%2f%2fstaging.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=08%2f09%2f2015+14%3a36%3a32&Hash=ujmsPniJPAOJBSc7Urinxdonq3lOLXIHD4fjSDNm%2f7s%3d"
+	#tid="PortalCode=traveltochina&UserName=&ClientIP=222.129.49.83&IsB2BCSubAgencyHostAdmin=&UICustomizationRights=&FileManagerThemeAdmin=&RootFolder=&DefaultCulture=zh-CN&ApiUrlBase=http%3a%2f%2fwww.epower.amadeus.com%2fNEWUI.FMGR%2fapi&PortalURL=&FileManagerConnectionStringKey=&UrlReferrer=&CultureListStr=&TimeTicket=08%2f12%2f2015+15%3a45%3a58&Hash=5V%2f56ZJ0WZ1bxpCVpRjpHb1ftgGQgdI6XO62snYzrIY%3d"
 	cookie="""FakeCookie=1; ASP.NET_SessionId=%s; Ticket=%s;""" % (sid, tid)
 	req.add_header('Cookie', cookie)
 	ret=""

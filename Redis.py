@@ -8,7 +8,7 @@ import threading
 from util import *
 
 class Redis:
-	def __init__(self, host='localhost', port=6379, country='USA', url_type="etraveltochina", culture="zh-CN"):
+	def __init__(self, host='localhost', port=6379, country='USA', url_type="traveltochina", culture="zh-CN"):
 		self.host = host
 		self.port = port
 		self.r =  redis.StrictRedis(self.host,self.port)
