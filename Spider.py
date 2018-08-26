@@ -48,7 +48,8 @@ class Spider:
 	def run(self):
 		self.conn = self.mysqlPool.connection()
 		cityPairs = GetCityPairs(self.conn)
-		interval_days = (14, 28, 91, 182)
+		#保留2周，1个月，半年
+		interval_days = (14, 28, 182)
 		now = datetime.datetime.now()
 		for cp in cityPairs:
 			print "%s --> %s" % (cp['DepartureCode'], cp['DestinationCode'])
@@ -66,7 +67,7 @@ class Spider:
 				ReturnTimeList = []
 				ReturnTimeList.append(DepartTime + datetime.timedelta(days=14))
 				ReturnTimeList.append(DepartTime + datetime.timedelta(days=28))
-				ReturnTimeList.append(DepartTime + datetime.timedelta(days=91))
+				#ReturnTimeList.append(DepartTime + datetime.timedelta(days=91))
 				ReturnTimeList.append(DepartTime + datetime.timedelta(days=182))
 				dayOfWeek = datetime.datetime.now().weekday()
 				# only on sunday we obtain the price of half year
